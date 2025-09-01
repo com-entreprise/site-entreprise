@@ -1,0 +1,126 @@
+/* Style global */
+body {
+font-family: Arial, sans-serif;
+margin: 0;
+padding: 0;
+line-height: 1.6;
+}
+
+/* En-tête */
+header {
+display: flex;
+justify-content: space-between;
+align-items: center;
+background: #003366;
+color: white;
+padding: 15px 30px;
+position: sticky;
+top: 0;
+}
+
+header .logo {
+font-size: 20px;
+font-weight: bold;
+}
+
+header nav a {
+color: white;
+margin-left: 20px;
+text-decoration: none;
+font-weight: bold;
+}
+
+header nav a:hover {
+text-decoration: underline;
+}
+
+/* Section Hero */
+.hero {
+background: url('https://via.placeholder.com/1200x400') no-repeat center center/cover;
+color: white;
+text-align: center;
+padding: 100px 20px;
+}
+
+.hero .btn {
+display: inline-block;
+margin-top: 20px;
+padding: 10px 20px;
+background: #ff6600;
+color: white;
+text-decoration: none;
+border-radius: 5px;
+}
+
+.hero .btn:hover {
+background: #cc5200;
+}
+
+/* Sections */
+section {
+padding: 60px 20px;
+max-width: 1000px;
+margin: auto;
+}
+
+h2 {
+text-align: center;
+margin-bottom: 20px;
+}
+
+/* Grille */
+.grid {
+display: flex;
+gap: 20px;
+flex-wrap: wrap;
+justify-content: center;
+}
+
+.card {
+background: #f4f4f4;
+padding: 20px;
+border-radius: 5px;
+text-align: center;
+flex: 1 1 250px;
+box-shadow: 0 2px 5px rgba(0,0,0,0.1);
+}
+
+.card img {
+max-width: 100%;
+border-radius: 5px;
+}
+
+/* Formulaire */
+form {
+display: flex;
+flex-direction: column;
+gap: 10px;
+max-width: 500px;
+margin: 20px auto;
+}
+
+form input, form textarea, form button {
+padding: 10px;
+border: 1px solid #ccc;
+border-radius: 5px;
+}
+
+form button {
+background: #003366;
+color: white;
+border: none;
+cursor: pointer;
+}
+
+form button:hover {
+background: #002244;
+}
+
+/* Pied de page */
+footer {
+text-align: center;
+background: #222;
+color: white;
+padding: 15px;
+margin-top: 20px;
+}
